@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action=" https://formspree.io/f/mknkkwgg" method="POST">
+
+        <label for="imie">Imię:</label><br>
+        <input type="text" id="imie" name="imie"><br>
+
+        <label for="nazwisko">Nazwisko:</label><br>
+        <input type="text" id="nazwisko" name="nazwisko"><br>
+
+        <label for="mail">E-mail:</label><br>
+        <input type="email" id="mail" name="mail"><br>
+
+        <label for="telefon">Telefon:</label><br>
+        <input type="text" id="telefon" name="telefon"><br>
+
+        <label for="miasto">Miasto:</label><br>
+        <select id="miasto" name="miasto">
+            <option value="krakow">Kraków</option>
+            <option value="warszawa">Warszawa</option>
+            <option value="gdansk">Gdańsk</option>
+        </select><br>
+
+        <p class="plec">Płeć:</p>
+        <input type="radio" name="plec" id="mezczyzna" value="mezczyzna">
+        <label for="mezczyzna">Mężczyzna</label><br>
+        <input type="radio" name="plec" id="kobieta" value="kobieta">
+        <label for="kobieta">Kobieta</label><br>
+
+        <label for="dane-osobowe">Wyrażam zgodę na przetwarzanie moich danych osobowych:</label>
+        <input type="checkbox" name="dane-osobowe" id="dane-osobowe"><br>
+
+        <label for="wiadomosc">Wiadomość:</label><br>
+        <textarea id="wiadomosc" name="wiadomosc" rows="4" cols="50"></textarea><br>
+
+        <input type="submit" value="Wyślij">
+    </form>
+</body>
+
+</html>
